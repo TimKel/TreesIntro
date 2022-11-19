@@ -167,8 +167,8 @@ let smallRight = new BinaryTreeNode(5);
 let smallRoot = new BinaryTreeNode(6, smallLeft, smallRight);
 smallTree = new BinaryTree(smallRoot);
 
-// console.log("Binary Tree", smallTree)
-// console.log("Traverse", smallTree.root.right)
+console.log("Binary Tree", smallTree)
+console.log("Traverse", smallTree.root.right)
 
 // build large tree
 let node6 = new BinaryTreeNode(1);
